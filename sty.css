@@ -1,0 +1,100 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url("https://images.pexels.com/photos/4752861/pexels-photo-4752861.jpeg?auto=compress&cs=tinysrgb&w=600");
+    color: white;
+}
+body background{
+    background-repeat: no-repeat;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+.left img{
+    width: 75px;
+    height: 49px;
+    filter: invert(100%);
+}
+.left div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(218, 28, 28);
+}
+.mid{
+    display: block;
+    width: 55%;
+    margin:  14px auto;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 22px;
+}
+.navbar li a{
+    margin: 3px 6px;
+    padding: 3px 6px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.navbar li a:hover
+.navbar li a:active
+{
+    color: rgb(149, 149, 169);
+    text-decoration: underline;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+}
+.btn{
+    margin: 2px 3px;
+    padding: 2px 3px;
+    border-radius: 4px;
+    background-color: rgb(23, 7, 81);
+    color: azure;
+    cursor: pointer;
+    
+}
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    margin: 103px 50px;
+    padding: 59px;
+    width: 33%;
+    border-radius: 22px;
+}   
+
+.group{
+    margin: 2px 4px;
+    padding: 2px 3px;
+}
+.container h1{
+    color: white;
+    text-align: center;
+}
+.group input{
+    font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 208px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 7px auto;
+        font-size: 15px;
+        border-radius: 8px;
+}
+.container button {
+    display: block;
+    width: 24%;
+    margin: 20px auto;
+}
